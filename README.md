@@ -175,13 +175,15 @@ The `.github/` directory ships a complete Copilot workspace setup:
 
 **Instruction files** — auto-applied context scoped by file pattern:
 
-| File                             | Applies to                             |
-| -------------------------------- | -------------------------------------- |
-| `apex-patterns.instructions.md`  | Apex classes and triggers              |
-| `lwc-patterns.instructions.md`   | LWC JS, HTML, and CSS                  |
-| `unit-tests.instructions.md`     | Apex test classes                      |
-| `salesforce-cli.instructions.md` | `sfdx-project.json`, config, manifests |
-| `node-scripts.instructions.md`   | `scripts/**/*.js`, `*.config.js`       |
+| File                                 | Applies to                                                  |
+| ------------------------------------ | ----------------------------------------------------------- |
+| `apex-patterns.instructions.md`      | Apex classes and triggers                                   |
+| `lwc-patterns.instructions.md`       | LWC JS, HTML, and CSS                                       |
+| `unit-tests.instructions.md`         | Apex test classes                                           |
+| `salesforce-cli.instructions.md`     | `sfdx-project.json`, config, manifests                      |
+| `node-scripts.instructions.md`       | `scripts/**/*.js`, `*.config.js`                            |
+| `agents-maintenance.instructions.md` | `.github/workflows/**`, `package.json`, CI/tooling config   |
+| `readme-maintenance.instructions.md` | `README.md`, `.github/agents/**`, `.github/instructions/**` |
 
 **Custom agents** — 18 specialized sub-agents including `gem-apex-specialist`, `gem-lwc-specialist`, `gem-sf-data-architect`, `gem-orchestrator`, `gem-implementer`, `gem-reviewer`, `gem-debugger`, and more.
 
