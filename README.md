@@ -1,10 +1,8 @@
 <div align="center">
 
-# Salesforce DX Project Template
+# SkyNet
 
-[![PR Check](https://github.com/melnikov1512/sfdx-project-template/actions/workflows/pr-check.yml/badge.svg)](https://github.com/melnikov1512/sfdx-project-template/actions/workflows/pr-check.yml)
-[![Security Gates](https://github.com/melnikov1512/sfdx-project-template/actions/workflows/security-gates.yml/badge.svg)](https://github.com/melnikov1512/sfdx-project-template/actions/workflows/security-gates.yml)
-![Salesforce API](https://img.shields.io/badge/Salesforce_API-v66.0-00A1E0)
+![Salesforce API](https://img.shields.io/badge/Salesforce_API-v67.0-00A1E0)
 ![Node.js](https://img.shields.io/badge/Node.js-18.11%2B-339933)
 
 _Production-ready Salesforce DX starter with quality tooling, CI/CD, and GitHub Copilot AI built in_
@@ -38,8 +36,8 @@ Clone this template, add your metadata to `force-app/`, configure the `SF_AUTH_U
 
 ```bash
 # 1. Clone the repo and install dependencies
-git clone https://github.com/melnikov1512/sfdx-project-template.git
-cd sfdx-project-template
+git clone https://github.com/artem-melnikov-vrp/skynet-demo.git
+cd skynet-demo
 npm install
 
 # 2. Authenticate your Dev Hub
@@ -65,7 +63,7 @@ npm run validate
 ## Project structure
 
 ```
-sfdx-project-template/
+skynet-demo/
 ├── force-app/
 │   └── main/default/          # Add your Salesforce metadata here
 ├── config/
@@ -80,7 +78,7 @@ sfdx-project-template/
 │   ├── prompts/               # Reusable Copilot prompt files
 │   ├── skills/                # 19 on-demand Copilot skills
 │   └── workflows/             # CI/CD pipeline definitions
-├── sfdx-project.json          # API v66.0, package dir: force-app
+├── sfdx-project.json          # API v67.0, package dir: force-app
 ├── .prettierrc                # Prettier config: 4-space indent, Apex + XML plugins
 ├── eslint.config.js
 ├── jest.config.js
