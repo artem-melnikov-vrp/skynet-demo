@@ -1,6 +1,8 @@
 # SkyNet Activities (Tasks)
 
-_Created: 2026-07-15 | Org: skynet-demo-org_
+_Created: 2026-07-15 | Updated: 2026-07-17 | Org: skynet-demo-org_
+
+## Contact Activities — Rashid Al-Maktoum
 
 All tasks linked to: **Rashid Al-Maktoum** (Contact) + **NexaRetail — Annual Courier SLA** (Opportunity)
 
@@ -13,7 +15,28 @@ All tasks linked to: **Rashid Al-Maktoum** (Contact) + **NexaRetail — Annual C
 | Meeting: Contract terms discussion at NexaRetail office     | [Open](https://vr1782175908523.my.salesforce.com/00TKY00001LHmqW2AT) | 2026-07-08 | Completed   | High     | 1hr in-person                    |
 | Email: Ready to proceed — needs pickup window clarification | [Open](https://vr1782175908523.my.salesforce.com/00TKY00001LHmqR2AT) | 2026-07-14 | Not Started | High     | ⚠️ Demo entry point — UNANSWERED |
 
-## Record IDs
+## Case Activities — Delayed parcel AWB-784521
+
+Linked to: **Priya Sharma** (Contact) + Case `500KY00000Yi5gTYAR`
+
+| Subject                                                     | Date       | Status    | Priority |
+| ----------------------------------------------------------- | ---------- | --------- | -------- |
+| Call: Complaint received — parcel AWB-784521 delayed 2 days | 2026-07-17 | Completed | High     |
+
+## Case Activities — Damaged package upon delivery
+
+Linked to: **David Henderson** (Contact) + Case `500KY00000Yi5gOYAR`
+
+| Subject                                                | Date       | Status      | Priority |
+| ------------------------------------------------------ | ---------- | ----------- | -------- |
+| Call: Initial damage report — David Henderson          | 2026-07-13 | Completed   | High     |
+| Meeting: Internal review — Dubai depot incident report | 2026-07-14 | Completed   | Normal   |
+| Call: Damage assessment update with David Henderson    | 2026-07-15 | Completed   | High     |
+| Meeting: Claims submission — assessment team handoff   | 2026-07-16 | In Progress | High     |
+
+---
+
+## Record IDs — Contact Activities
 
 | Subject                                                     | Record ID            |
 | ----------------------------------------------------------- | -------------------- |
